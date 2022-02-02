@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="adminjs.js"></script>
+</head>
+<body ng-controller="myctrl">
+    <div ng-controller="myctrl">
+        Rows to Display:<input type="number" step="1" min="0" max="unbound" ng-model="rowlimit">
+        <!-- <p>Search Employee name start with: <inputtype="text"ng-model="empName"/></p> -->
+
+        <p><input type="text" ng-model="test"></p>
+    <table cellpadding="2" cellspacing="2" border="1">
+        <tr>
+            <th>House ID <br>
+            <input type="text" ng-model="search.id">
+            </th>
+            <th>House Name<br>
+            <input type="text" ng-model="search.name"></th>
+            <th>Price<br>
+            <input type="text" ng-model="search.price"></th>
+            <th>Address<br>
+            <input type="text" ng-model="search.address"></th>            
+            <th>City<br>
+            <input type="text" ng-model="search.city"></th>
+            <th>Sold Status<br>
+            <input type="text" ng-model="search.soldstatus"></th>
+            <th>Approve State<br>
+            <input type="text" ng-model="search.state"></th>
+        </tr>
+        <tr ng-repeat="item in names | filter:search | limitTo:rowlimit | orderBy:'price'">
+            <td>{{item.id}}</td>
+            <td>{{item.name | uppercase }}</td>
+            <td>&#8377{{item.price }}</td>
+            <td>{{item.address | lowercase}}</td>
+            <td>{{item.city}}</td>
+            <td>{{item.soldstatus}}</td>
+            <td>{{item.state}}</td>
+        </tr>
+    </table>
+
+    
+</div>
+
+
+ 
+</body>
+</html>
