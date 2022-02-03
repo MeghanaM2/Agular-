@@ -1,15 +1,15 @@
 {
     "houseInformation":[
-      {"id":1,"name":"Dream", "price":20000000,"address":"#15 ,food street,kormangala","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
-      {"id":2,"name":"Divine", "price":12000000,"address":"#16 ,M street,Mangala","city":"Bangalore","soldstatus":"Sold","state":"Approve"},
-      {"id":3,"name":"Moon", "price":40000000,"address":"#1 ,MG street,Jangala","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
+      {"id":1,"name":"dream", "price":20000000,"address":"#15 ,food street,kormangala","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
+      {"id":2,"name":"divine", "price":12000000,"address":"#16 ,M street,Mangala","city":"Bangalore","soldstatus":"Sold","state":"Approve"},
+      {"id":3,"name":"moon", "price":40000000,"address":"#1 ,MG street,Jangala","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
       {"id":4,"name":"shadow", "price":10000000,"address":"#1/4 ,hall street,hoskote","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
-      {"id":5,"name":"Hapiness", "price":56000000,"address":"#1/5 ,NG street,Adugodi","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
-      {"id":6,"name":"Victory", "price":34000000,"address":"#0/5 ,JP street,Sagar","city":"Bangalore","soldstatus":"ForSale","state":"Disapprove"},
+      {"id":5,"name":"hapiness", "price":56000000,"address":"#1/5 ,NG street,Adugodi","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
+      {"id":6,"name":"victory", "price":34000000,"address":"#0/5 ,JP street,Sagar","city":"Bangalore","soldstatus":"ForSale","state":"Disapprove"},
       {"id":7,"name":"Family", "price":25000000,"address":"#5 ,NM street,SR Nagar","city":"Bangalore","soldstatus":"ForSale","state":"Approve"},
       {"id":8,"name":"Mile End", "price":60000000,"address":"#115 ,J street,kormangala","city":"Bangalore","soldstatus":"ForSale","state":"Disapprove"},
       {"id":9,"name":"Kuredu", "price":20000000,"address":"#15/3 ,K street,kormangala","city":"Bangalore","soldstatus":"Sold","state":"Approve"},
-      {"id":10,"name":"Happy", "price":25000000,"address":"#15/1 ,L street,kormangala","city":"Bangalore","soldstatus":"ForSale","state":"Approve"}
+      {"id":10,"name":"happy", "price":25000000,"address":"#15/1 ,L street,kormangala","city":"Bangalore","soldstatus":"ForSale","state":"Approve"}
       
     ]
 }
